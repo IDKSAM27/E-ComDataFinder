@@ -23,10 +23,6 @@ async def index(request: Request):
 
 # Handle website scraping POST
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 9e6e7fae113a8b94faa2647d4f71bd7e8846e77d
 @app.post("/fetch-websites")
 async def fetch_websites_route(
     request: Request,
