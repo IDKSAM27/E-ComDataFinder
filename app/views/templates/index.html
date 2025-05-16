@@ -15,7 +15,14 @@
                 <div>
                     <label class="block mb-1">Country</label>
                     <select name="country" class="w-full border p-2" required>
-                        {% for country in ["USA", "India", "UK", "Australia", "Canada"] %}
+                        {% for country in [
+                            "Argentina", "Australia", "Austria", "Bangladesh", "Belgium", "Brazil", "Canada", "Chile", "China", "Colombia",
+                            "Czech Republic", "Denmark", "Egypt", "Finland", "France", "Germany", "Greece", "Hungary", "India", "Indonesia",
+                            "Ireland", "Israel", "Italy", "Japan", "Kenya", "Malaysia", "Mexico", "Netherlands", "New Zealand", "Nigeria",
+                            "Norway", "Pakistan", "Peru", "Philippines", "Poland", "Portugal", "Qatar", "Romania", "Russia", "Saudi Arabia",
+                            "Singapore", "South Africa", "South Korea", "Spain", "Sweden", "Switzerland", "Thailand", "Turkey", "UK", "USA"
+                        ]
+                         %}
                             <option value="{{ country }}">{{ country }}</option>
                         {% endfor %}
                     </select>
@@ -42,10 +49,6 @@
                         <input type="checkbox" name="domain_active" class="form-checkbox">
                         <span>Domain Active</span>
                     </label>
-                    <!-- <label class="flex items-center space-x-2">
-                        <input type="checkbox" name="only_shopify" class="form-checkbox">
-                        <span>Only Shopify websites</span>
-                    </label> -->
                     <label class="flex items-center space-x-2">
                         <input type="checkbox" name="fast_load" class="form-checkbox">
                         <span>Loads within 5 secs</span>
