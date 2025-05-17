@@ -33,8 +33,8 @@
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/ecom-data-finder.git
-cd ecom-data-finder
+git clone https://github.com/IDKSAM27/INS-CSE-37-11299.git
+cd INS-CSE-37-11299
 ```
 
 ##  Getting Started
@@ -69,12 +69,28 @@ http://localhost:8000
 ##  Folder Structure
 
 ```graphql
-ecom-data-finder/
-├── static/
-├── templates/
-│   └── index.html
+E-Com Data Finder
+├── app
+│   ├── _pycache_/
+│   ├── logic
+│   │   ├── _pycache_/
+│   │   ├── fetch_emails.py
+│   │   ├── fetch_websites.py
+│   │   ├── filters.py
+│   │   ├── get_websites.py
+│   │   └── utils.py
+│   ├── static
+│   │   └── styles.css
+│   └── views
+│       ├── static
+│       │   └── script.js
+│       └── templates
+│           ├── fetch_emails.html
+│           ├── index.html
+│           └── results.html
 ├── main.py
-├── utils.py
-├── requirements.txt
-└── README.md
+├── emails.csv
+├── readme.md
+├── run.py
+
 ```
