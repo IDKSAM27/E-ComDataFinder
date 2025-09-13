@@ -2,7 +2,9 @@
 
 **E-Com Data Finder** is a powerful web tool designed to help users extract and filter e-commerce websites by location, industry, technology stack (Shopify), and performance (domain status and load time). It also enables CSV-based filtering and email extraction from websites.
 
----
+
+## Demo
+![Demo](Finaldemo.gif)
 
 ##  Features
 
@@ -17,7 +19,7 @@
 - **Email extraction**: Pull emails from fetched domains.
 - **Download results** as a CSV.
 
----
+
 
 ##  Tech Stack
 
@@ -26,15 +28,15 @@
 - **Templating**: Jinja2
 - **Web Scraping & Detection**: `SarpAPI` for Website Scraping, `beautifulsoup4` for Email Scraping
 
----
+
 
 ##  Setup Instructions
 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/IDKSAM27/INS-CSE-37-11299.git
-cd INS-CSE-37-11299
+git clone https://github.com/IDKSAM27/E-ComDataFinder.git
+cd E-ComDataFinder
 ```
 
 ##  Getting Started
@@ -64,7 +66,7 @@ uvicorn main:app --reload
 ### Then open your browser and visit:
 http://localhost:8000
 
----
+
 
 ##  Folder Structure
 
